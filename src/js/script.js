@@ -20,6 +20,10 @@ $(document).ready(() => {
         $('.order')[0].scrollIntoView({behavior: "smooth"});
     })
 
+    $('.promo__btn').click((e) => {
+        $('.products')[0].scrollIntoView({behavior: "smooth"});
+    })
+
     let loader = $('.loader');
     $('#order-btn').click(function () {
         let hasError = false;
